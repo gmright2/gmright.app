@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Copyright 2015-2018 Mobolic
+# Copyright 2018 gmright
 #
 # Licensed under the Apache License, Version 2.0 (the "License"); you may
 # not use this file except in compliance with the License. You may obtain
@@ -14,4 +14,4 @@
 # License for the specific language governing permissions and limitations
 # under the License.
 
-__version__ = "3.0.0"
+__version__ = "6.0.9"
