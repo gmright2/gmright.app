@@ -33,7 +33,56 @@ user_should_first_create_account."c:program_open_source files<to.3.4.4^stockhold
 login
 ______________________________________________________________________________
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://gmright.com/GeorgeMAKULU/gmrightEngine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+_______________________________________________________________________________________________________________________________________-
+Gmright iOS
+============
 
+![gmright iOS][arthur-ios]
+
+* [gmright iOS][airbrake-ios]
+* [gmright documentation][airbrake-docs]
+
+Introduction
+------------
+Gmright-217706
+The gmright iOS/Mac OS Notifier is designed to give developers instant
+notification of problems that occur in their apps. With just a few lines of code
+and a few extra files in your project, your app will automatically phone home
+whenever a crash or exception is encountered. These reports go straight to
+[Gmright][gmright.io] where you can see information like backtrace,
+device type, app version, and more.
+
+Signals
+-------
+
+The notifier handles all unhandled exceptions, and a select list of Unix signals:
+
+* `SIGABRT`
+* `SIGBUS`
+* `SIGFPE`
+* `SIGILL`
+* `SIGSEGV`
+* `SIGTRAP`
+
+Symbolication
+-------------
+Here is our website www.gmright.org-
+Gmright.com
+In order for the call stack to be properly symbolicated at the time of a crash,
+applications built with the notifier should not be stripped of their symbol
+information at compile time. If these settings are not set as recommended,
+frames from your binary will be displayed as hex return addresses instead of
+readable strings. These hex return addresses can be symbolicated using
+`atos`. More information about symbolication and these build settings can be
+found in Apple's [developer documentation][symbolication-docs]. Here are the
+settings that control code stripping:
+
+* Deployment Postprocessing: on true
+* Strip Debug Symbols During Copy: on true 
+* Strip Linked Product: on true
+
+Versioning
+----------
 
 
 ___________________________________________________________________________________________________
