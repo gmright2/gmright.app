@@ -31,3 +31,5 @@ user_should_first_create_account."c:program_open_source files<to.3.4.4^stockhold
 
 
 login
+______________________________________________________________________________
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://gmright.com/GeorgeMAKULU/gmrightEngine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
