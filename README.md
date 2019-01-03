@@ -33,3 +33,23 @@ user_should_first_create_account."c:program_open_source files<to.3.4.4^stockhold
 login
 ______________________________________________________________________________
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://gmright.com/GeorgeMAKULU/gmrightEngine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+
+
+___________________________________________________________________________________________________
+sandspiel
+
+"Imagine the cool phenomenon when the wind blows the falling leaves. This game simulates the phenomenon with powder (dots)!" -DAN-BALL
+
+This is a falling sand game built in rust (via wasm), webgl, and some JS glueing things together.
+
+The goal is to produce an cellular automata environment that's interesting to play with and supports the sharing and forking of fun creations with other players. Ultimately, I want the platform to support editing and uploading of your own elements via a programmable cellular automata API.
+
+🛠️ Build:wasm-pack build; npm run start 
+
+a successor to my previous efforts in javascriptand lua
+
+Fluid simulation code adopted from https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+
+
+
