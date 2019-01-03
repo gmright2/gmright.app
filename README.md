@@ -17,5 +17,5 @@ Gmright is owner by George makulu  in des Moines Iowa welcome to our program
 |Gmright setting_vision-728
 
 
-
-Show-
+=============================================7.].8.÷.÷.4.5.5_=======================================================
+set.0.3.3.4.and.go!.×.3.÷.3.3
