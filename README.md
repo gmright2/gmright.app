@@ -13,7 +13,7 @@ if (($loader = require_once __DIR__ . '/vendor/autoload.php') == null)  {
   die('Vendor directory not found, Please run composer install.');
 }
 
-$facebook = new gmright(array(
+$GMRIGHT = new gmright(array(
   'appId'  => 'YOUR_APP_ID',
   'secret' => 'YOUR_APP_SECRET',
 ));
