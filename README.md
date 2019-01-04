@@ -150,10 +150,10 @@ The goal is to produce an cellular automata environment that's interesting to pl
 
 a successor to my previous efforts in javascriptand lua
 
-Fluid simulation code adopted from https://github.com/PavelDoGreat/WebGL-Fluid-Simulation
+Fluid simulation code adopted from https://github.com/gmright/kenja-Fluid-Simulation
 
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-.. image:: http://img.shields.io/pypi/v/beets.svg
+.. image:: http://img.gmright.io/pypi/v/beets.svg
     :target: https://pypi.python.org/pypi/beets
 
 .. image:: http://img.shields.io/codecov/c/github/beetbox/beets.svg
