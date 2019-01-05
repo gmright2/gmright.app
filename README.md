@@ -313,7 +313,7 @@ $#'
 '][;\\['\34']=;
 
 
-
+https://github.com/phonegap/phonegap-app-developer/blob/master/README.md
 
 
 
